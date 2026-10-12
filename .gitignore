@@ -1,0 +1,6 @@
+# APKs are published on the Releases page, not committed.
+*.apk
+*.aab
+.DS_Store
+Thumbs.db
+Desktop.ini

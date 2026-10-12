@@ -1,0 +1,52 @@
+name: Something isn't working
+description: A move isn't picked up, the app crashes, a screen is confusing, anything like that.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game?
+      options:
+        - Subway Surfers
+        - Real Boxing 2
+        - World Cricket Championship 3
+        - Fruit Ninja
+        - Beat Swiper
+        - Not about a game (setup, settings, controller pairing...)
+    validations:
+      required: true
+  - type: dropdown
+    id: input
+    attributes:
+      label: How were you playing?
+      options:
+        - Camera (body tracking)
+        - Camera (my hand)
+        - Controller phone
+        - Not sure
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "Example: when I jump, Subway Surfers only jumps about half the time."
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model and Android version
+      placeholder: "Example: Galaxy S24, Android 15"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: RIFT version
+      description: Settings, at the bottom.
+      placeholder: "Example: 0.1-beta"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: A short video or a screenshot helps a lot. You can drag files into this box.

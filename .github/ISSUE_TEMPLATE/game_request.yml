@@ -1,0 +1,21 @@
+name: Request a game
+description: Tell us which game you'd like to play with RIFT.
+labels: ["game request"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game name
+      placeholder: "Example: Temple Run 2"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Play Store link
+      placeholder: "https://play.google.com/store/apps/details?id=..."
+  - type: textarea
+    id: how
+    attributes:
+      label: How would you like to play it?
+      description: Which moves should do what? For example "lean to steer, jump to boost".
