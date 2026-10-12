@@ -31,6 +31,8 @@ No extra hardware. No account. Nothing leaves your phone.
 
 ## 🎮 Pick a game, then move
 
+**Tested and tuned:**
+
 <table>
   <tr>
     <td align="center" width="20%"><img src="assets/game-runner.webp" width="140" alt="Runner" /><br/><b>Subway Surfers</b><br/><sub>📷 Camera</sub><br/>Jump, duck, lean to switch lanes</td>
@@ -40,6 +42,15 @@ No extra hardware. No account. Nothing leaves your phone.
     <td align="center" width="20%"><img src="assets/game-sabers.webp" width="140" alt="Sabers" /><br/><b>Beat Swiper</b><br/><sub>📱📱 Two phones</sub><br/>A saber in each hand</td>
   </tr>
 </table>
+
+**🧪 Also playable, experimental:** mapped and ready to try, not fully tested yet. Tell us how they play!
+
+| | |
+|---|---|
+| 🏃 **Runners** | Temple Run 2, Temple Run, Minion Rush, Sonic Dash |
+| 👆 **One-tap** | Geometry Dash Lite, Jetpack Joyride, Stack, Crossy Road |
+| 🏎️ **Racing** | Hill Climb Racing, Hill Climb Racing 2, Traffic Rider, Traffic Racer, Smashy Road: Wanted, Beach Buggy Racing 2 |
+| 🏏 **Cricket** | Stick Cricket Classic, World Cricket Championship 2, Real Cricket 20 |
 
 Install the game from the Play Store and RIFT finds it by itself. Want another game? [Ask for it](https://github.com/Crisiswastaken/rift-app/issues/new?template=game_request.yml).
 
@@ -101,7 +112,7 @@ After that they find each other by themselves.
 
 <div align="center">
   <img src="assets/trailer.gif" alt="RIFT trailer: every genre" width="640" /><br/>
-  <sub>The beta plays five of these. The rest are on the way. Full film on <a href="https://www.tryrift.fun">tryrift.fun</a>.</sub>
+  <sub>Full film on <a href="https://www.tryrift.fun">tryrift.fun</a>.</sub>
 </div>
 
 ## 💡 Tips for the best game
