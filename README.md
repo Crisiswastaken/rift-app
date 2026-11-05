@@ -43,14 +43,20 @@ No extra hardware. No account. Nothing leaves your phone.
   </tr>
 </table>
 
+**Also tested:** 🏃 **Minion Rush** and **Sonic Dash** (camera, like Subway Surfers) · 🏍️ **Traffic Rider** (lean to
+steer, head down to brake) · 🏎️ **Asphalt 8** (an air steering wheel: both fists up, turn to steer, drop a hand to drift)
+
 **🧪 Also playable, experimental:** mapped and ready to try, not fully tested yet. Tell us how they play!
 
 | | |
 |---|---|
-| 🏃 **Runners** | Temple Run 2, Temple Run, Minion Rush, Sonic Dash |
-| 👆 **One-tap** | Geometry Dash Lite, Jetpack Joyride, Stack, Crossy Road |
-| 🏎️ **Racing** | Hill Climb Racing, Hill Climb Racing 2, Traffic Rider, Traffic Racer, Smashy Road: Wanted, Beach Buggy Racing 2 |
-| 🏏 **Cricket** | Stick Cricket Classic, World Cricket Championship 2, Real Cricket 20 |
+| 🏃 **Runners** | Temple Run 2, Temple Run |
+| 🏎️ **Racing** | Hill Climb Racing, Hill Climb Racing 2, Traffic Racer, Smashy Road: Wanted, Beach Buggy Racing 2, Asphalt Legends |
+| 🏏 **Cricket** | Stick Cricket Classic, World Cricket Championship 2 and 4, Real Cricket 20, Real Cricket 24, Real Cricket Swipe, Sachin Saga Pro Cricket |
+| 🎾 **Sports** | Golf Battle, 3D Tennis, Tennis Clash |
+
+Some games need one setting changed in the game first (WCC3: *Pull & Release* batting; Asphalt: *Tap to steer*).
+RIFT tells you on the game's page.
 
 Install the game from the Play Store and RIFT finds it by itself. Want another game? [Ask for it](https://github.com/Crisiswastaken/rift-app/issues/new?template=game_request.yml).
 
@@ -76,7 +82,7 @@ Install the game from the Play Store and RIFT finds it by itself. Want another g
 installs from your browser. That's normal for apps outside the Play Store.
 
 **2. Follow the setup.** RIFT walks you through it: allow the camera, and turn on RIFT in Accessibility settings (that's
-how it taps the game). Every step shows you exactly where to go.
+how it taps the game). Every step shows you exactly where to go. Playing on a TV? Say so, and RIFT uses the back camera.
 
 </td>
   </tr>
@@ -86,7 +92,7 @@ how it taps the game). Every step shows you exactly where to go.
 
 **3. Stand the phone up** 2 to 3 metres away, camera facing you. A tripod, a shelf or a pile of books all work.
 
-**4. Calibrate once, then hit Play.** A short calibration teaches RIFT how *you* move. Cast to your TV if you like.
+**4. Hit Play.** No calibration. Camera games show you their moves in a short clip first. Cast to your TV if you like.
 
 </td>
   </tr>
@@ -104,9 +110,10 @@ While you play, a light at the top of the game tells you what's up, big enough t
 
 ### 📱 Use a second phone as a controller
 
-For the cricket bat, the Fruit Ninja blade or the Beat Swiper sabers, install RIFT on the other phone too and pick
-**Use this phone as a controller**. Put both phones on the same Wi-Fi and type the 4-digit code from the game phone.
-After that they find each other by themselves.
+For the cricket bat, the Fruit Ninja blade, the Beat Swiper sabers or a tennis racket, install RIFT on the other phone
+too and pick **Use this phone as a controller**. Type the 4-digit code from the game phone's Controller tab. The phones
+connect straight to each other over Wi-Fi Direct, no router needed (Android 13 and newer; older phones use the same
+Wi-Fi or the game phone's hotspot). Keep both phones on the same RIFT version.
 
 ## 🎬 See where it's going
 
@@ -127,7 +134,7 @@ After that they find each other by themselves.
 ## 🔒 Privacy
 
 The camera picture is processed on your phone and never leaves it. RIFT has no account and no servers. The controller
-phone talks to the game phone directly over your own Wi-Fi.
+phone talks to the game phone directly, phone to phone.
 
 ## 🐛 Something not working?
 
