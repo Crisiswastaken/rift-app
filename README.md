@@ -1,147 +1,46 @@
-<div align="center">
+# Rift
 
-<img src="assets/logo.png" alt="RIFT logo" width="112" />
+<p>
+  <img src="assets/logo.png" alt="Rift" width="72" />
+</p>
 
-# RIFT
+Android app. Your phone watches you move and plays the games already on it. The camera frame is thrown away after the pose. No account. Nothing is uploaded.
 
-### Your phone is the console. Your body is the controller.
+This repo is the public download and the issue tracker. The app source is not here. APKs are GitHub Releases, not commits.
 
-Jump, duck, punch, swing and slice your way through the games already on your phone.<br/>
-No extra hardware. No account. Nothing leaves your phone.
-
-<br/>
-
-<a href="https://github.com/Crisiswastaken/rift-app/releases/latest"><img src="https://img.shields.io/badge/Download-APK-E53935?style=for-the-badge&logo=android&logoColor=white" alt="Download the APK" /></a>
-&nbsp;
-<a href="https://www.tryrift.fun"><img src="https://img.shields.io/badge/Website-tryrift.fun-121212?style=for-the-badge" alt="Website" /></a>
-&nbsp;
-<a href="https://github.com/Crisiswastaken/rift-app/issues/new/choose"><img src="https://img.shields.io/badge/Report_a_problem-1E88E5?style=for-the-badge&logo=github&logoColor=white" alt="Report a problem" /></a>
-
-<img src="https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android 11+" />
-<img src="https://img.shields.io/badge/status-free_beta-FFB020?style=flat-square" alt="Free beta" />
-<img src="https://img.shields.io/badge/runs-100%25_on_device-121212?style=flat-square" alt="Runs on device" />
-
-<br/><br/>
-
-<img src="assets/banner.png" alt="Turn your phone into a motion console" width="820" />
-
-</div>
-
-<br/>
-
-## 🎮 Pick a game, then move
-
-**Tested and tuned:**
-
-<table>
-  <tr>
-    <td align="center" width="20%"><img src="assets/game-runner.webp" width="140" alt="Runner" /><br/><b>Subway Surfers</b><br/><sub>📷 Camera</sub><br/>Jump, duck, lean to switch lanes</td>
-    <td align="center" width="20%"><img src="assets/game-boxing.webp" width="140" alt="Boxing" /><br/><b>Real Boxing 2</b><br/><sub>📷 Camera</sub><br/>Throw real punches, cover up to block</td>
-    <td align="center" width="20%"><img src="assets/game-cricket.webp" width="140" alt="Cricket" /><br/><b>World Cricket Championship 3</b><br/><sub>📱 Phone bat or ✋ hand</sub><br/>Swing like a bat</td>
-    <td align="center" width="20%"><img src="assets/game-slicer.webp" width="140" alt="Slicing" /><br/><b>Fruit Ninja</b><br/><sub>📱 Phone blade or ✋ hand</sub><br/>Point and slice</td>
-    <td align="center" width="20%"><img src="assets/game-sabers.webp" width="140" alt="Sabers" /><br/><b>Beat Swiper</b><br/><sub>📱📱 Two phones</sub><br/>A saber in each hand</td>
-  </tr>
-</table>
-
-**Also tested:** 🏃 **Minion Rush** and **Sonic Dash** (camera, like Subway Surfers) · 🏍️ **Traffic Rider** (lean to
-steer, head down to brake) · 🏎️ **Asphalt 8** (an air steering wheel: both fists up, turn to steer, drop a hand to drift)
-
-**🧪 Also playable, experimental:** mapped and ready to try, not fully tested yet. Tell us how they play!
+**[Download the APK](https://github.com/Crisiswastaken/rift-app/releases/latest)** · [tryrift.fun](https://tryrift.fun) · [Report a problem](https://github.com/Crisiswastaken/rift-app/issues/new/choose)
 
 | | |
 |---|---|
-| 🏃 **Runners** | Temple Run 2, Temple Run |
-| 🏎️ **Racing** | Hill Climb Racing, Hill Climb Racing 2, Traffic Racer, Smashy Road: Wanted, Beach Buggy Racing 2, Asphalt Legends |
-| 🏏 **Cricket** | Stick Cricket Classic, World Cricket Championship 2 and 4, Real Cricket 20, Real Cricket 24, Real Cricket Swipe, Sachin Saga Pro Cricket |
-| 🎾 **Sports** | Golf Battle, 3D Tennis, Tennis Clash |
+| Current release | `v0.3-beta` (`RIFT-0.3-beta.apk`). The website's `/rift.apk` redirect is pinned to that asset |
+| Android | 11 or newer |
+| Install | Open the APK. Allow install from the browser. Turn on the Rift Accessibility service (that is how taps reach the game) and the camera |
+| Play | Phone upright, 2–3 m away, camera facing you. No calibration |
+| Second phone | Cricket bat, Fruit Ninja blade, Beat Swiper sabers, tennis racket. Same version on both phones. 4-digit code. Wi-Fi Direct on Android 13+, otherwise the same Wi-Fi or the game phone's hotspot |
 
-Some games need one setting changed in the game first (WCC3: *Pull & Release* batting; Asphalt: *Tap to steer*).
-RIFT tells you on the game's page.
+## Tested in 0.3-beta
 
-Install the game from the Play Store and RIFT finds it by itself. Want another game? [Ask for it](https://github.com/Crisiswastaken/rift-app/issues/new?template=game_request.yml).
-
-## ⚡ How it works
-
-<table>
-  <tr>
-    <td align="center" width="25%"><img src="assets/flow-see.webp" width="110" alt="See" /><br/><b>1. It sees you</b><br/><sub>The camera tracks your body, right on the phone.</sub></td>
-    <td align="center" width="25%"><img src="assets/flow-understand.webp" width="110" alt="Understand" /><br/><b>2. It reads the move</b><br/><sub>A jump, a punch, a swing, a lean.</sub></td>
-    <td align="center" width="25%"><img src="assets/flow-touch.webp" width="110" alt="Touch" /><br/><b>3. It taps for you</b><br/><sub>The matching swipe or tap lands in the game.</sub></td>
-    <td align="center" width="25%"><img src="assets/flow-play.webp" width="110" alt="Play" /><br/><b>4. You just play</b><br/><sub>On the phone, or on your TV.</sub></td>
-  </tr>
-</table>
-
-## 🚀 Get started in 5 minutes
-
-<table>
-  <tr>
-    <td width="170" align="center"><img src="assets/art-download.webp" width="150" alt="Download" /></td>
-    <td>
-
-**1. Install RIFT.** Grab the APK from [Releases](https://github.com/Crisiswastaken/rift-app/releases/latest) and open it on your phone. Android asks to allow
-installs from your browser. That's normal for apps outside the Play Store.
-
-**2. Follow the setup.** RIFT walks you through it: allow the camera, and turn on RIFT in Accessibility settings (that's
-how it taps the game). Every step shows you exactly where to go. Playing on a TV? Say so, and RIFT uses the back camera.
-
-</td>
-  </tr>
-  <tr>
-    <td width="170" align="center"><img src="assets/art-tripod.webp" width="150" alt="Phone on a tripod" /></td>
-    <td>
-
-**3. Stand the phone up** 2 to 3 metres away, camera facing you. A tripod, a shelf or a pile of books all work.
-
-**4. Hit Play.** No calibration. Camera games show you their moves in a short clip first. Cast to your TV if you like.
-
-</td>
-  </tr>
-</table>
-
-### 🟢 The light in the game
-
-While you play, a light at the top of the game tells you what's up, big enough to read from across the room:
-
-| | |
+| Game | How |
 |---|---|
-| 🟢 **Green** | All good, go! In Subway Surfers, boxing and cricket your moves flash on it too, like **⬆ Jump**. |
-| 🟠 **Amber** | Adjust something, like **Step back** or **Stand still**. |
-| 🔴 **Red** | Something needs fixing first, like **Step into view**. |
+| Subway Surfers, Minion Rush, Sonic Dash | Camera. Jump, duck, lean |
+| Traffic Rider | Lean to steer, head down to brake |
+| Asphalt 8 | Both fists as a wheel. In the game: Settings, Controls, Tap to steer |
+| World Cricket Championship 3 | Second phone as the bat, or your hand |
+| Fruit Ninja | Second phone as the blade, or your hand |
+| Beat Swiper | A phone in each hand |
+| Real Boxing 2 | Camera. Punch, cover to block, lean to dodge |
 
-### 📱 Use a second phone as a controller
+Other mapped games are marked Experimental in the app. Install the game from the Play Store and Rift finds it.
 
-For the cricket bat, the Fruit Ninja blade, the Beat Swiper sabers or a tennis racket, install RIFT on the other phone
-too and pick **Use this phone as a controller**. Type the 4-digit code from the game phone's Controller tab. The phones
-connect straight to each other over Wi-Fi Direct, no router needed (Android 13 and newer; older phones use the same
-Wi-Fi or the game phone's hotspot). Keep both phones on the same RIFT version.
+## Issues
 
-## 🎬 See where it's going
+Use the templates. Include the phone model, the Rift version, the game, and what happened. A short video is the useful attachment.
 
-<div align="center">
-  <img src="assets/trailer.gif" alt="RIFT trailer: every genre" width="640" /><br/>
-  <sub>Full film on <a href="https://www.tryrift.fun">tryrift.fun</a>.</sub>
-</div>
+| Kind | Template |
+|---|---|
+| Bug | `.github/ISSUE_TEMPLATE/bug_report.yml` |
+| Game request | `.github/ISSUE_TEMPLATE/game_request.yml` |
 
-## 💡 Tips for the best game
+## Brand
 
-- 💡 **Bright room, nothing bright behind you.** A window at your back makes tracking harder.
-- 📺 **Play on a TV** with a USB-C to HDMI cable or screen casting, so you can see the game from where you stand.
-- 🔋 **Keep RIFT running.** Set its battery use to Unrestricted. On some phones (vivo, iQOO, Xiaomi, OPPO) also allow
-  auto-start.
-- 🛑 **Done?** Swipe RIFT away from your recent apps or tap Stop in its notification. It also stops by itself after a
-  few minutes without a game, so it won't drain your battery.
-
-## 🔒 Privacy
-
-The camera picture is processed on your phone and never leaves it. RIFT has no account and no servers. The controller
-phone talks to the game phone directly, phone to phone.
-
-## 🐛 Something not working?
-
-[Open an issue](https://github.com/Crisiswastaken/rift-app/issues/new/choose) with your phone model, the game, and what happened. A short video helps a lot.
-
-<div align="center">
-<br/>
-<img src="assets/logo.svg" width="36" alt="" /><br/>
-<sub>Made for people who'd rather move than tap.</sub>
-</div>
+Rift, Rift Arcade, and Rift Gym share one mark. Black `#1A1A1A`, Chalk `#F4F4F0`, White. Logos are black or white. Plus Jakarta Sans. The pictures in `assets/` are the current release art.
